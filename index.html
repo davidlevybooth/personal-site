@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>David Levy-Booth</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="theme-color" content="#06091A" />
+<meta name="description" content="David Levy-Booth. AI engineer working where models meet biology. Papers, writing, resume." />
+<meta property="og:title" content="David Levy-Booth" />
+<meta property="og:description" content="AI engineer working where models meet biology." />
+<meta property="og:image" content="%VITE_SITE_URL%/og.jpg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+<canvas id="stage"></canvas>
+
+<div class="name"><b>David Levy-Booth</b><span>AI × biology</span></div>
+
+<nav class="rail" aria-label="Chapters">
+  <a href="#hero" data-rail="hero"><span>Start</span><i></i></a>
+  <a href="#about" data-rail="about"><span>About</span><i></i></a>
+  <a href="#work" data-rail="work"><span>Work</span><i></i></a>
+  <a href="#resume" data-rail="resume"><span>Resume</span><i></i></a>
+  <a href="#close" data-rail="close"><span>Contact</span><i></i></a>
+</nav>
+
+<main>
+  <section id="hero">
+    <div></div>
+    <div class="hero-foot">
+      <a class="peek touch" href="#about" aria-label="Read on">
+        <div class="k">Next <em>01 About</em></div>
+        <p>Who I am, and why there's a protein turning on this page.</p>
+      </a>
+      <a class="down touch" href="#about" aria-label="Scroll down">
+        <i></i><i></i><i></i><i></i>
+        <span class="v"><i></i><i></i></span>
+      </a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div>
+      <div class="chapter-k reveal">01 <em>About</em></div>
+      <div class="prose">
+        <p class="reveal">I build systems for designing new molecules, mostly proteins. That has meant everything from sampling hot springs in the Canadian wilderness to building the cloud infrastructure that turns trillions of DNA measurements into experimentally validated proteins, and benchmarking frontier AI models for what they can and shouldn't do in biology.</p>
+        <p class="reveal">The thing turning on this page is one of those designs: a binder for TNF-α, lit by how sure the model is.</p>
+        <p class="reveal q">Before this: a decade in microbial genomics, from lignin-eating bacteria to running a bioinformatics core.</p>
+      </div>
+    </div>
+    <div></div>
+  </section>
+
+  <section id="band" aria-label="In the room">
+    <figure class="band"><img src="/band-agents.webp" alt="David showing AI agents to gene therapy developers around a laptop" loading="lazy" /><figcaption>Showing AI agents to gene therapy developers · 2025</figcaption></figure>
+  </section>
+  <section id="work"></section>
+  <section id="resume"></section>
+  <section id="close"></section>
+</main>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
