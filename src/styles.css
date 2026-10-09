@@ -44,8 +44,8 @@ section{min-height:100vh;padding:0 var(--pad)}
 .down{display:grid;grid-template-columns:repeat(3,5px);grid-template-rows:repeat(6,5px);gap:5px;padding:10px 8px;justify-items:center}
 .down i{width:5px;height:5px;border-radius:50%;background:var(--fg);display:block;opacity:.25;animation:fall 1.6s ease-in-out infinite}
 .down .s1{grid-area:1/2}.down .s2{grid-area:2/2}.down .s3{grid-area:3/2}.down .s4{grid-area:4/2}
-.down .hl{grid-area:5/1}.down .hr{grid-area:5/3}.down .hp{grid-area:6/2}
-.down .s2{animation-delay:.1s}.down .s3{animation-delay:.2s}.down .s4{animation-delay:.3s}.down .hl,.down .hr{animation-delay:.4s}.down .hp{animation-delay:.5s}
+.down .hl{grid-area:5/1}.down .hr{grid-area:5/3}.down .tip{grid-area:6/2}
+.down .s2{animation-delay:.1s}.down .s3{animation-delay:.2s}.down .s4{animation-delay:.3s}.down .hl,.down .hr{animation-delay:.4s}.down .tip{animation-delay:.5s}
 .down:hover i{background:var(--accent)}
 @keyframes fall{0%,70%,100%{opacity:.25;transform:translateY(0)}35%{opacity:1;transform:translateY(2px)}}
 .down:hover i{background:var(--accent)}
