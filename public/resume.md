@@ -1,6 +1,6 @@
 # David Levy-Booth, PhD
 AI for biology · rare disease · Canada · remote and US-based roles
-dlevybooth@gmail.com · https://linkedin.com/in/david-levy-booth · https://github.com/davidlevybooth
+https://linkedin.com/in/david-levy-booth · https://github.com/davidlevybooth
 
 Full-stack AI engineer and computational scientist with the goal of bringing novel treatments to patients with rare diseases. I build biological design systems, turn large-scale experimental data into validated designs, and benchmark frontier models for biological safety and capability.
 

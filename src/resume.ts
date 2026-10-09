@@ -8,7 +8,7 @@ export type Entry = {
 
 export const PERSON = {
   name: "David Levy-Booth, PhD", line: "AI for biology · rare disease", location: "Canada · remote and US-based roles",
-  email: "dlevybooth@gmail.com", links: { linkedin: "https://linkedin.com/in/david-levy-booth", github: "https://github.com/davidlevybooth", scholar: "https://scholar.google.com/citations?user=RYr0usAAAAAJ" },
+  links: { linkedin: "https://linkedin.com/in/david-levy-booth", github: "https://github.com/davidlevybooth", scholar: "https://scholar.google.com/citations?user=RYr0usAAAAAJ" },
   summary: "Full-stack AI engineer and computational scientist with the goal of bringing novel treatments to patients with rare diseases. I build biological design systems, turn large-scale experimental data into validated designs, and benchmark frontier models for biological safety and capability.",
 };
 
