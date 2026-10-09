@@ -40,12 +40,13 @@ section{min-height:100vh;padding:0 var(--pad)}
 .peek p{font-size:clamp(18px,1.6vw,26px);font-weight:500;letter-spacing:-.02em;line-height:1.25;color:var(--fg-2)}
 .peek:hover p{color:var(--fg)}
 .hero-foot{will-change:opacity,transform}
-/* the way down: an arrow made of dots that fall one after another */
-.down{display:flex;flex-direction:column;align-items:center;gap:7px;padding:10px 6px}
+/* the way down: an arrow made of dots, a shaft and a head, that fall one after another */
+.down{display:grid;grid-template-columns:repeat(3,5px);grid-template-rows:repeat(6,5px);gap:5px;padding:10px 8px;justify-items:center}
 .down i{width:5px;height:5px;border-radius:50%;background:var(--fg);display:block;opacity:.25;animation:fall 1.6s ease-in-out infinite}
-.down i:nth-child(2){animation-delay:.12s}.down i:nth-child(3){animation-delay:.24s}.down i:nth-child(4){animation-delay:.36s}
-.down .v{display:flex;gap:7px;margin-top:-2px}
-.down .v i{animation-delay:.48s}
+.down .s1{grid-area:1/2}.down .s2{grid-area:2/2}.down .s3{grid-area:3/2}.down .s4{grid-area:4/2}
+.down .hl{grid-area:5/1}.down .hr{grid-area:5/3}.down .hp{grid-area:6/2}
+.down .s2{animation-delay:.1s}.down .s3{animation-delay:.2s}.down .s4{animation-delay:.3s}.down .hl,.down .hr{animation-delay:.4s}.down .hp{animation-delay:.5s}
+.down:hover i{background:var(--accent)}
 @keyframes fall{0%,70%,100%{opacity:.25;transform:translateY(0)}35%{opacity:1;transform:translateY(2px)}}
 .down:hover i{background:var(--accent)}
 @media (prefers-reduced-motion:reduce){.down i{animation:none;opacity:.6}}
